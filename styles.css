@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(119deg, #2d5060, #838389);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(48,84,100);
+    background: linear-gradient(90deg, rgba(48,84,100,1) 100%, rgba(5,1,23,0.05085784313725494) 100%);
+    padding: 20px;
+    max-width: 800px;
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2pt solid #4c9cedcb;
+}
+
+h1 {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.copy__pass, .generate__pass {
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: aliceblue;
+    border: 2pt solid #b2d6fbcb;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    
+}
+
+input.password {
+    font-size: 22px;
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    border: 2pt solid #9bc1e6cb;
+    background-color: transparent;
+    color: white;
+    caret-color: transparent;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #f8f2f25c;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+.checkbox {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+label {
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.password__input{
+    width: 30px;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    border: 1pt solid #f4f4f4cb;
+    background-color: transparent;
+    color: white;
+}
+
+input:focus {
+    outline: none;  
+}
